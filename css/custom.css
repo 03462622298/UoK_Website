@@ -1,0 +1,206 @@
+/* this is a custom css stylesheet*/
+.topspace{
+    margin:100px auto;max-width:805px;
+    }
+.carousel .item img{
+    width: 100%; !important;
+    
+}
+.B-well{
+	background-image: linear-gradient(to bottom, #e8e8e8 0%, white 25%);
+
+}
+.tabclass{
+  color:#447e36; 
+}
+.tab-pane {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;	
+	border-bottom: 1px solid #ddd;
+	padding: 0.8em;
+}
+.nav-tabs {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: -10px;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+	color:white;
+	background: #447e36;
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+.nav-tabs > li > a:hover {
+	background: #447e36;
+  border-color: #447e36;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+	
+  color: #447e36;
+  cursor: default;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 950px;  
+}
+#alumni > h3 > a{
+  color:#447e36; color:#447e36; font-family: Georgia, Times New Roman, Times, serif;
+                font-size: 22px;
+}
+#citizen > h5 {
+font-size:11px;
+font-family:arial,helvetica,sans-serif;
+ margin-top:7px;
+ margin-left:-80px;
+}
+#news{
+  background-color:#f7f7f7; font-size:11px;
+}
+.abc{
+   color: #447e36;
+}
+#wid{
+  font-size: 11px;
+  font-family: tahoma,arial,sans-serif;
+  color: #555;
+  margin-top: 6px;
+}
+#call{
+  color: #447e36;; font-weight:bold;
+}
+
+#ul1 > li  {
+color: #447e36;;
+font-family: sans-serif;
+font-size: 11px;
+padding: 5px;
+display: inline; font-family: Arial, Helvetica, sans-serif;
+}
+#ul1 > li:hover{
+  text-decoration: none;
+  color: white;
+  background: #447e36;;
+  border: 2px solid #447e36;
+  font-size: 10px;
+}
+.ul2 > a{
+  text-decoration: none;
+    color: black;
+}
+.ul2 > a:hover{
+  color: white;
+}
+
+#ddown{
+  width: 220px;
+}
+#end > h3 {
+  color: green;
+  font-weight: bold;
+  font-size: 19px;
+}
+#vc > h3 {
+
+   color: green;
+  font-weight: bold;
+  font-size: 19px;
+}
+#vc > p > a{
+  color: #555;
+}
+#vc > p > a:hover{
+  color: #447e36;
+}
+#end > ul > a {
+  list-style: none;
+font-family: tahoma,sans-serif;
+font-size: 11px;
+color: gray;
+}
+#end > ul > a:hover{
+  color: green;
+  font-weight: bold;
+}
+#bbottom{
+  border-bottom: 1px solid gray;
+  border-style: dotted;
+}
+#end > ul{
+  margin-left: -40px;
+}
+#eline > p > a{
+  font-family: tahoma,sans-serif;
+  font-size: 11px;
+  color: gray;
+}
+#uok{
+  padding-top:12px; font-size:11px;
+}
+#uok1{
+  margin-top:-10px;font-size:11px;
+}
+#uok1 > a:hover{
+  color: #447e36;
+}
+#vc{
+ list-style: none;
+font-family: tahoma,sans-serif;
+font-size: 11px;
+color: gray;
+}
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+  
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+    color: green;
+ }  
